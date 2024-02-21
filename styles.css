@@ -1,0 +1,74 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+div,p{
+    font-family: 'Times New Roman', Times, serif;
+    /* border: red 2px solid; */
+}
+.outermost{
+    display: grid;
+    grid-template-columns: auto auto ;
+
+}
+.left-half,.right-half{
+    background-color:white;
+    display: flex;
+   
+    flex:1;
+    height: 100vh;
+    padding:5vh 5vh;
+}
+.right-half{
+    /* background-color: lightpink; */
+    display: grid;
+    grid-template-columns: auto auto ;
+    column-gap: 2vh;
+    row-gap:2vh;
+    padding:5vh 5vh;
+}
+.left-half{
+    display: grid;
+    grid-template-columns: auto auto ;
+    
+
+}
+.img{
+    height: 40vh;
+}
+
+.para{
+    font-size: 3vh;
+    
+    padding: 2vh;
+}
+.my-resume,.abt-me,.works,.contact,.wht-i-do{
+    padding: 2vh;
+}
+
+.headings{
+    width: 40vh;
+    font-family:'Times New Roman', Times, serif;
+    font-size:4vh;
+    font-weight: bold;
+    margin-top: 1vh;
+    padding-left: 2vh;
+    
+}
+.link{
+    font-size: 4vh;
+    margin-top: 1vh;
+    padding: 2vh;
+    color:black;
+}
+.abt-me{
+    background-color:#f1f1f1;
+}
+.contact{
+    background-color: #b2caca;
+}
+
+.link>a{
+    color:black;
+}
